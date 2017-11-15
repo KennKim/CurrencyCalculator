@@ -3,4 +3,39 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+
+    <color name="color_white">#f9f9f9</color>
+    <color name="color_white_gray">#dce1e2</color>
+    <color name="color_gray">#303030</color>
+    <color name="color_soft_gray_alpha">#cc848484</color>
+    <color name="color_soft_gray">#848484</color>
+    <color name="color_yellow_gray">#212121</color>
+    <color name="color_deep_gray">#212121</color>
+    <color name="color_blue_gray">#393f48</color>
+    <color name="color_red_gray">#48393a</color>
+    <color name="color_green_gray">#39483a</color>
+
+    <color name="color_yellow">#FFBB33</color>
+
+    <color name="color_soft_green">#90af06</color>
+    <color name="color_soft_green_aqua">#06af69</color>
+    <color name="colorSuperGreen">#8efa2f</color>
+
+    <color name="color_em_red">#c72c2c</color>
+
+    <color name="color_em_pink">#ba0241</color>
+    <color name="color_pink">#e70bff</color>
+
+    <color name="color_soft_purple">#5778bc</color>
+
+    <color name="color_soft_blue">#0666af</color>
+    <color name="color_sky_blue">#448aff</color>
+    <color name="color_deep_navy">#123</color>
+
+    <!-- TextColor -->
+    <color name="text_color">@color/color_white</color>
+
+
 </resources>

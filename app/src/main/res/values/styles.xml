@@ -1,11 +1,80 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text_color</item>
+
+        <!--<item name="android:background">@color/colorPrimary</item>-->
+        <!--<item name="android:windowBackground">#afab12</item>-->
+        <!--<item name="android:colorBackground">#12fafa</item>-->
+    </style>
+
+    <!-- Button Number -->
+    <style name="btnNo" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <!--<item name="android:background">#dadada</item>-->
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <!-- Button_Number Zero -->
+    <style name="btnNoZero" parent="btnNo">
+        <item name="android:layout_width">120dp</item>
+    </style>
+    <!-- Button_Number Dot -->
+    <style name="btnNoDot" parent="btnNo">
+        <item name="android:layout_width">60dp</item>
+    </style>
+    <!-- Button_Number C,del -->
+    <style name="btnNoSide" parent="btnNo">
+        <item name="android:layout_height">120dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <!-- Button_Number close-->
+    <style name="btnClose" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Textview_Layout_to rate-->
+    <style name="btnNation" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Textview_Layout_From_to rate-->
+    <style name="tvRate" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!-- Textview_Layout_From_to value-->
+    <style name="tvValue" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginEnd">16sp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
+    <!-- Textview_Layout_From_to value-->
+    <style name="tvCurrency" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginEnd">16sp</item>
     </style>
 
 </resources>
