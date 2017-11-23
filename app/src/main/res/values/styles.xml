@@ -53,23 +53,30 @@
         <item name="android:textSize">20sp</item>
     </style>
 
-    <!-- Textview_Layout_From_to rate-->
+    <!-- Textview_Nation_Layout rate-->
     <style name="tvRate" parent="@android:style/Widget.TextView">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">60dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">14sp</item>
     </style>
-    <!-- Textview_Layout_From_to value-->
+    <!-- Textview_Nation_Layout value-->
     <style name="tvValue" parent="@android:style/Widget.TextView">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">right</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:layout_marginEnd">16sp</item>
         <item name="android:paddingStart">5dp</item>
     </style>
-    <!-- Textview_Layout_From_to value-->
+
+    <!-- Textview_Nation_Layout rate-->
+    <style name="tvValuePoint" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- Textview_Nation_Layout value-->
     <style name="tvCurrency" parent="@android:style/Widget.TextView">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>

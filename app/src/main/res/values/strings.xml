@@ -5,7 +5,7 @@
     <string name="open_drawer">open_drawer</string>
     <string name="close_drawer">close_drawer</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Number -->
     <string name="no1">1</string>
     <string name="no2">2</string>
     <string name="no3">3</string>
@@ -19,6 +19,10 @@
     <string name="no_dot">.</string>
     <string name="no_c">C</string>
     <string name="no_del">Del</string>
+
+    <!-- mention -->
+    <string name="no_anymore">limited</string>
+    <string name="try_later">try again later please.</string>
 
 
 
